@@ -16,7 +16,9 @@
     "vue": "^3.4.21"
   },
   "dependencies": {
+    "@vueuse/nuxt": "^10.9.0",
     "axios": "^1.6.5",
-    "flowbite": "^2.2.1"
+    "flowbite": "^2.2.1",
+    "mysql2": "^3.9.2"
   }
 }

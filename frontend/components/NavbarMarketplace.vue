@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="bg-gradient-to-r from-indigo-800 via-indigo-500 to-indigo-800">
-    <!-- <nav class="bg-indigo-600"> -->
+      <!-- <nav class="bg-indigo-600"> -->
       <div class="flex flex-wrap items-center justify-between mx-aut p-4 pr-5">
 
         <!-- LOGO -->
@@ -13,20 +13,26 @@
         <button data-dropdown-trigger="hover" data-dropdown-toggle="dropdown" type="button" class="inline-flex  items-center p-2 w12 h10 
         justify-center  rounded-lg hover:bg-gray-300 md:order-1 text-white/80 hover:text-black text
         focus:outline-none focus:ring-2 focus:ring-gray-200" aria-expanded="false">
-        <Icon name="mi:menu" class="text-2xl" />
-        <span class="font-semibold">Menu</span>
+
+          <svg class="text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+            <path fill="currentColor"
+              d="M4 7a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1m0 5a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1m0 5a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1">
+            </path>
+          </svg>
+          <span class="font-semibold">Menu</span>
         </button>
         <!-- BARRA DE PESQUISA -->
-        <div class="items-center justify-between hidde w-full flex md:w-auto">
+        <!-- <div class="items-center justify-between hidde w-full flex md:w-auto">
           <div class="relative md:block lg:w-96 mt-4 md:mt-0 md:order-none" style="width: 450px;">
             <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-              <Icon name="material-symbols:search-rounded" color="black" class="text-2xl opacity-50" aria-hidden="true" />
+              <Icon name="material-symbols:search-rounded" color="black" class="text-2xl opacity-50"
+                aria-hidden="true" />
             </div>
             <input type="text" id="search-navbar"
               class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-green-500 focus:border-green-500"
               placeholder="Pesquisar">
           </div>
-        </div>
+        </div> -->
         <!-- MENU -->
         <div class="items-center justify-between w-full md:flex md:w-auto">
           <div class="relative md:block md:mt-0 md:order-none">
